@@ -57,3 +57,7 @@ Vivamus tempus accumsan erat, at sollicitudin justo elementum vitae. Nullam temp
 ```
 [pwd-pdf-table show="10"]
 ```
+
+### activity page
+
+目前 activity page 是使用文章的一个分类来实现的，所以，需要先创建一个文章分类，然后，编辑文章时，把文章分类设置为该分类即可。
