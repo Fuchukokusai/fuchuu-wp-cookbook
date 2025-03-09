@@ -2,10 +2,11 @@
 
 ## 目次
 
-- home page [创建指南](./docs/index.md)
-- plugin repo：[带有密码保护的 pdf 文件下载插件](https://github.com/suhanyujie/wp-protected-pdf-download)
-- plugin repo：[友情链接插件](https://github.com/suhanyujie/wp-link-gallery)
+- ホームページの[作成ガイド](./docs/jp/index.md)
+- plugin-[リンクの使用](./docs/jp/plugin-friendLink.md)
 
-## ref
+## 参考
 
 - https://flydemos.net/docs/devotion-doc/
+- プラグインリポジトリ：[パスワード保護付き PDF ファイルダウンロードプラグイン](https://github.com/suhanyujie/wp-protected-pdf-download)
+- プラグインリポジトリ：[リンク集プラグイン](https://github.com/suhanyujie/wp-link-gallery)
