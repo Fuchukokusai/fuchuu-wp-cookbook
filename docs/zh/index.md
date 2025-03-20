@@ -61,3 +61,31 @@ Vivamus tempus accumsan erat, at sollicitudin justo elementum vitae. Nullam temp
 ### activity page
 
 目前 activity page 是使用文章的一个分类来实现的，所以，需要先创建一个文章分类，然后，编辑文章时，把文章分类设置为该分类即可。
+
+## “府中サロン”主页的服务器文件设置
+
+旧版的主页如下图所示：
+
+![oldHomePage1](../images/image-5.png)
+
+通过 filezilla 软件，将 lolipop 购买的 wordpress 服务对应的服务器程序默认入口文件调整为 新的 wordpress 入口文件，即可让 `https://fuchukokusai.com/` 访问的页面为新的 wordpress 页面。
+
+如果没有 filezilla 软件，可以在[官网下载](https://download.filezilla-project.org/client/FileZilla_3.68.1_win64_sponsored2-setup.exe)。安装完成之后，增加 lolipop 对应的 ftp 服务站点。
+
+打开添加好的名称为 `fuchuu` 的 ftp 站点：
+
+![filezilla1](../images/image-4.png)
+
+（如果没有 ftp 站点账户和密码，可以咨询 “@sueda さん”）
+
+连接后，会加载出名称为 `fuchukokusai.com` 的文件夹，主页的服务器程序文件就存放在其中，入口文件是 `index.html`
+
+![indexFileShow1](../images/image-6.png)
+
+`index.html` 它是旧主页的入口文件，如果要切换成使用 wordpress 作为主页时，则将 `index.html` 修改成其他文件名就可以（只要不是 index.html 即可），例如，可以修改成 `index.html.backup`。随后，去浏览器，刷新 `https://fuchukokusai.com/` 页面，可以发现，页面已经切换成新的主页了。如下图所示：
+
+![newHomePage1](../images/image-3.png)
+
+### 恢复旧版主页
+
+如果你想让互联网用户访问的是旧版网页，则只需，将 `index.html.backup` 文件的名称还原为 `index.html` 即可。此时再去浏览器**刷新**网站主页。

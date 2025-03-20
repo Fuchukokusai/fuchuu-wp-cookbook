@@ -6,9 +6,9 @@
 
 インストール完了後、テーマの使用に早く慣れるために、デモデータをインポートする必要があります。
 
-テーマのインストール完了後、このテーマが推奨する WordPress プラグインのインストールを促すメッセージが表示されます。そのまま選択してインストールしてください。その中の1つは `Devotion Pro Demo Importer` プラグインで、このプラグインを使用してデモデータをインポートすることができます。
+テーマのインストール完了後、このテーマが推奨する WordPress プラグインのインストールを促すメッセージが表示されます。そのまま選択してインストールしてください。その中の 1 つは `Devotion Pro Demo Importer` プラグインで、このプラグインを使用してデモデータをインポートすることができます。
 
-`Devotion Pro Demo Importer` プラグインをインストールした後、WordPress 管理画面の左側メニューで、外観 -> デモデータのインポートを選択し、[`devotion.WordPress.2023-12-04.xml`](../files/devotion.WordPress.2023-12-04.xml) と [`flydemos.net-devotion-widgets.wie`](../files/flydemos.net-devotion-widgets.wie) の2つのファイルを選択してインポートします。
+`Devotion Pro Demo Importer` プラグインをインストールした後、WordPress 管理画面の左側メニューで、外観 -> デモデータのインポートを選択し、[`devotion.WordPress.2023-12-04.xml`](../files/devotion.WordPress.2023-12-04.xml) と [`flydemos.net-devotion-widgets.wie`](../files/flydemos.net-devotion-widgets.wie) の 2 つのファイルを選択してインポートします。
 
 デモデータのインポート後、メニューとホームページの設定を行うことができます。
 
@@ -61,3 +61,31 @@ Vivamus tempus accumsan erat, at sollicitudin justo elementum vitae. Nullam temp
 ### アクティビティページ
 
 現在、アクティビティページは記事のカテゴリーを使用して実装されています。そのため、まず記事カテゴリーを作成し、記事の編集時にそのカテゴリーを設定するだけです。
+
+## 「府中サロン」ホームページのサーバーファイル設定
+
+旧バージョンのホームページは以下の画像のようになっています：
+
+![oldHomePage1](../images/image-5.png)
+
+FileZilla ソフトウェアを使用して、lolipop で購入した WordPress サービスに対応するサーバープログラムのデフォルトエントリーファイルを新しい WordPress エントリーファイルに変更することで、`https://fuchukokusai.com/`にアクセスした際に新しい WordPress ページが表示されるようになります。
+
+FileZilla ソフトウェアがない場合は、[公式サイトからダウンロード](https://download.filezilla-project.org/client/FileZilla_3.68.1_win64_sponsored2-setup.exe)できます。インストール完了後、lolipop に対応する FTP サービスサイトを追加します。
+
+`fuchuu`という名前で追加した FTP サイトを開きます：
+
+![filezilla1](../images/image-4.png)
+
+（FTP サイトのアカウントとパスワードがない場合は、「@sueda さん」に確認してください）
+
+接続すると、`fuchukokusai.com`という名前のフォルダがロードされます。ホームページのサーバープログラムファイルはこの中に保存されており、エントリーファイルは`index.html`です。
+
+![indexFileShow1](../images/image-6.png)
+
+`index.html`は旧ホームページのエントリーファイルです。WordPress をホームページとして使用する場合は、`index.html`のファイル名を別の名前に変更するだけです（index.html 以外であれば何でも構いません）。例えば、`index.html.backup`に変更できます。その後、ブラウザで`https://fuchukokusai.com/`ページを更新すると、新しいホームページに切り替わっていることが確認できます。以下の画像のようになります：
+
+![newHomePage1](../images/image-3.png)
+
+### 旧バージョンのホームページに戻す
+
+インターネットユーザーに旧バージョンのウェブページを表示させたい場合は、`index.html.backup`ファイルの名前を`index.html`に戻すだけです。その後、ブラウザでウェブサイトのホームページを**更新**してください。
