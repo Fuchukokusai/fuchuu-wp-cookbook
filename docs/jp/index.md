@@ -72,20 +72,20 @@ FileZilla ソフトウェアを使用して、lolipop で購入した WordPress 
 
 FileZilla ソフトウェアがない場合は、[公式サイトからダウンロード](https://download.filezilla-project.org/client/FileZilla_3.68.1_win64_sponsored2-setup.exe)できます。インストール完了後、lolipop に対応する FTP サービスサイトを追加します。
 
-`fuchuu`という名前で追加した FTP サイトを開きます：
+`fuchuu` という名前で追加した FTP サイトを開きます：
 
 ![filezilla1](../images/image-4.png)
 
 （FTP サイトのアカウントとパスワードがない場合は、「@sueda さん」に確認してください）
 
-接続すると、`fuchukokusai.com`という名前のフォルダがロードされます。ホームページのサーバープログラムファイルはこの中に保存されており、エントリーファイルは`index.html`です。
+接続すると、`fuchukokusai.com` という名前のフォルダがロードされます。ホームページのサーバープログラムファイルはこの中に保存されており、エントリーファイルは `index.html` です。
 
 ![indexFileShow1](../images/image-6.png)
 
-`index.html`は旧ホームページのエントリーファイルです。WordPress をホームページとして使用する場合は、`index.html`のファイル名を別の名前に変更するだけです（index.html 以外であれば何でも構いません）。例えば、`index.html.backup`に変更できます。その後、ブラウザで`https://fuchukokusai.com/`ページを更新すると、新しいホームページに切り替わっていることが確認できます。以下の画像のようになります：
+`index.html` は旧ホームページのエントリーファイルです。WordPress をホームページとして使用する場合は、`index.html` のファイル名を別の名前に変更するだけです（index.html 以外であれば何でも構いません）。例えば、`index.html.backup` に変更できます。その後、ブラウザで `https://fuchukokusai.com/` ページを更新すると、新しいホームページに切り替わっていることが確認できます。以下の画像のようになります：
 
 ![newHomePage1](../images/image-3.png)
 
 ### 旧バージョンのホームページに戻す
 
-インターネットユーザーに旧バージョンのウェブページを表示させたい場合は、`index.html.backup`ファイルの名前を`index.html`に戻すだけです。その後、ブラウザでウェブサイトのホームページを**更新**してください。
+インターネットユーザーに旧バージョンのウェブページを表示させたい場合は、`index.html.backup` ファイルの名前を `index.html` に戻すだけです。その後、ブラウザでウェブサイトのホームページを**更新**してください。
