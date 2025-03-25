@@ -1,3 +1,8 @@
+## "府中サロン"ホームページ
+情報管理と表示には [wordpress 6.7](https://wordpress.org/download/releases/6-7/) を採用しています。テーマには [Devotion Pro](https://flythemes.net/wordpress-themes/devotion-lite-wordpress-theme/) を使用しています。
+
+サーバーは https://lolipop.jp/ が提供する wordpress サービスを利用しています。
+
 ## devotion pro theme のインストール
 
 最近、「府中」サロン組織は [Devotion Pro](https://flythemes.net/wordpress-themes/devotion-lite-wordpress-theme/) の WordPress テーマを使用することを決定しました。テーマのインストールについて、以下の点に注意が必要です：

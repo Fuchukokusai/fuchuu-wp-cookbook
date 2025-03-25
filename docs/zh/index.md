@@ -1,3 +1,8 @@
+## “府中サロン”主页
+采用 [wordpress 6.7](https://wordpress.org/download/releases/6-7/) 进行信息管理和展示。使用的主题是 [Devotion Pro](https://flythemes.net/wordpress-themes/devotion-lite-wordpress-theme/)。
+
+服务器使用的是 https://lolipop.jp/ 提供的 wordpress 服务。
+
 ## devotion pro theme 的安装
 
 近期，“府中”沙龙组织决定使用 [Devotion Pro](https://flythemes.net/wordpress-themes/devotion-lite-wordpress-theme/) 的 wordpress 主题，作为主题的安装，需要注意以下几点：
