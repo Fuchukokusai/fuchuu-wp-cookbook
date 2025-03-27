@@ -18,7 +18,7 @@ step 3：イベントの日付、開始時間、開催場所、担当者の連�
 
 step 4：地図情報の設定については、[google map](https://map.google.com/)のウェブサイトで検索し、以下の動画を参考にしてください：
 
-<video controls src="https://raw.githubusercontent.com/suhanyujie/fuchuu-wp-cookbook/refs/heads/main/docs/images/20250327-1306-21-8589457.mp4" title="Title"></video>
+<video controls src="../images/20250327-1306-21-8589457.mp4" title="Title"></video>
 
 情報の入力が完了したら、ページ右側の「公開」ボタンをクリックして公開します。
 

@@ -18,7 +18,7 @@ step 3：填写活动的日期、开始时间、活动地点、联系负责人�
 
 step 4：其中，地图信息的设置，可以先从 [google map](https://map.google.com/) 网站中查找，参考下方视频：
 
-<video controls src="../images/20250327-1306-21.8589457.mp4" title="Title"></video>
+<video controls src="../images/20250327-1306-21-8589457.mp4" /video>
 
 信息填写完成后，点击页面右侧的“公開”按钮进行发布。
 
