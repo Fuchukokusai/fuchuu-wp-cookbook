@@ -1,6 +1,6 @@
 ## イベントの作成
 
-step 1：管理画面に入り、イベントを作成します：
+step 1：[管理画面に入り](https://fuchukokusai.com/wp-admin)、イベントを作成します：
 
 ![createEvent1](../images/image-16.png)
 
