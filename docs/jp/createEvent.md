@@ -25,3 +25,7 @@ step 4：地図情報の設定については、[google map](https://map.google.
 ![eventPublish1](../images/image-20.png)
 
 以上です。
+
+
+## ref
+- [ドキュメントホーム](../../README.md)
