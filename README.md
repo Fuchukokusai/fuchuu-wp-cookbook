@@ -3,7 +3,11 @@
 ## 目次
 
 - ホームページの[作成ガイド](./docs/jp/index.md)
+- [イベントのクリエート（event の編集）](./docs/jp/createEvent.md)
+- activity の編集（文章の編集）
+
 - plugin-[リンクの使用](./docs/jp/plugin-friendLink.md)
+
 
 ## 参考
 
