@@ -4,13 +4,14 @@
 
 - ホームページの[作成ガイド](./docs/jp/index.md)
 - [イベントのクリエート（event の編集）](./docs/jp/createEvent.md)
-- activity の編集（文章の編集）
+- [activity の編集（文章の編集）](./docs/jp/createPost.md)
+
+### other
 
 - plugin-[リンクの使用](./docs/jp/plugin-friendLink.md)
 
-
 ## 参考
 
-- https://flydemos.net/docs/devotion-doc/
+- theme doc https://flydemos.net/docs/devotion-doc/
 - プラグインリポジトリ：[パスワード保護付き PDF ファイルダウンロードプラグイン](https://github.com/suhanyujie/wp-protected-pdf-download)
 - プラグインリポジトリ：[リンク集プラグイン](https://github.com/suhanyujie/wp-link-gallery)

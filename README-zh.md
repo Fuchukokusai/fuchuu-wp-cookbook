@@ -4,7 +4,7 @@
 
 - home page [创建指南](./docs/index.md)
 - [创建 event](./docs/zh/createEvent.md)
-- 创建/编辑文章
+- [创建/编辑文章](./docs/zh/createPost.md)
 - plugin-友情链接[使用指南](./docs/zh/plugin-friendLink.md)
 
 ## ref
