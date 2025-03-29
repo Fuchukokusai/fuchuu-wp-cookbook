@@ -3,6 +3,7 @@
 ## 目次
 
 - home page [创建指南](./docs/index.md)
+  - [首页的内容编辑](./docs/zh/pageModify/mainPageModify.md)
 - [创建 event](./docs/zh/createEvent.md)
 - [创建/编辑文章](./docs/zh/createPost.md)
 - [用户的咨询管理和回复](./docs/zh/qaResolve.md)
