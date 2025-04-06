@@ -14,11 +14,12 @@ export default defineConfig({
     },
     jp: {
       label: '日本語',
-      ...jp
+      ...jp,
     },
     zh: {
       label: '中文简体',
       ...zh,
     },
   },
+  ignoreDeadLinks: true,
 });

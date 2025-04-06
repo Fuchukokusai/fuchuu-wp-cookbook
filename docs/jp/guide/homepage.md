@@ -14,7 +14,7 @@
 
 テーマのインストール完了後、このテーマが推奨する WordPress プラグインのインストールを促すメッセージが表示されます。そのまま選択してインストールしてください。その中の 1 つは `Devotion Pro Demo Importer` プラグインで、このプラグインを使用してデモデータをインポートすることができます。
 
-`Devotion Pro Demo Importer` プラグインをインストールした後、WordPress 管理画面の左側メニューで、外観 -> デモデータのインポートを選択し、[`devotion.WordPress.2023-12-04.xml`](../files/devotion.WordPress.2023-12-04.xml) と [`flydemos.net-devotion-widgets.wie`](../files/flydemos.net-devotion-widgets.wie) の 2 つのファイルを選択してインポートします。
+`Devotion Pro Demo Importer` プラグインをインストールした後、WordPress 管理画面の左側メニューで、外観 -> デモデータのインポートを選択し、[`devotion.WordPress.2023-12-04.xml`](../files/devotion.WordPress.2023-12-04.xml) と [`flydemos.net-devotion-widgets.wie`](../../../files/flydemos.net-devotion-widgets.wie) の 2 つのファイルを選択してインポートします。
 
 デモデータのインポート後、メニューとホームページの設定を行うことができます。
 

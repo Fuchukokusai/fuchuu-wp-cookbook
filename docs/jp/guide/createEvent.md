@@ -28,4 +28,4 @@ step 4：地図情報の設定については、[google map](https://map.google.
 
 ## ref
 
-- [ドキュメントホーム](../../README.md)
+- [ドキュメントホーム](../../../README.md)

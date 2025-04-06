@@ -14,7 +14,7 @@
 
 主题安装完成后，会提示几个该主题推荐安装的 wordpress 插件，直接选择安装即可。其中之一是 `Devotion Pro Demo Importer` 插件，该插件可以导入 demo 数据，以便于能快速习惯主题的使用。
 
-`Devotion Pro Demo Importer` 插件安装后，在 wordpress 后台，左侧菜单中，选择 外观 -> 导入演示数据，然后选择 2 个文件，分别是 [`devotion.WordPress.2023-12-04.xml`](../files/devotion.WordPress.2023-12-04.xml) 和 [`flydemos.net-devotion-widgets.wie`](../files/flydemos.net-devotion-widgets.wie)，导入即可。
+`Devotion Pro Demo Importer` 插件安装后，在 wordpress 后台，左侧菜单中，选择 外观 -> 导入演示数据，然后选择 2 个文件，分别是 [`devotion.WordPress.2023-12-04.xml`](../files/devotion.WordPress.2023-12-04.xml) 和 [`flydemos.net-devotion-widgets.wie`](../../..//files/flydemos.net-devotion-widgets.wie)，导入即可。
 
 demo 数据导入后，接下来可以配置菜单、首页。
 
