@@ -8,7 +8,7 @@
 - [创建 event](./docs/zh/guide/createEvent.md)
 - [创建/编辑文章](./docs/zh/guide/createPost.md)
 - [用户的咨询管理和回复](./docs/zh/guide/qaResolve.md)
-- pdf 资料的上传
+- [pdf 资料的上传](./docs/zh/guide/normalPdfUpload.md)
 - 带有密码的 pdf 资料上传
 - 友情链接的修改
 - 文章的分类管理

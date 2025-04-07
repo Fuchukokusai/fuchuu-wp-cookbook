@@ -40,9 +40,10 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
         { text: 'home page 介绍', link: 'homepage' },
-        { text: '创建 event', link: 'createEvent.md' },
-        { text: '创建/编辑文章', link: 'createPost.md' },
-        { text: '用户的咨询管理和回复', link: 'qaResolve.md' },
+        { text: '创建 event', link: 'createEvent' },
+        { text: '创建/编辑文章', link: 'createPost' },
+        { text: 'pdf 文件链接的展示', link: 'normalPdfUpload' },
+        { text: '用户的咨询管理和回复', link: 'qaResolve' },
       ],
     },
   ];
