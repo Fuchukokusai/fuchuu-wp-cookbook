@@ -8,6 +8,7 @@
 - [activity の編集（文章の編集）](./docs/jp/guide/createPost.md)
 - [普通のpdfのアップロード](./docs/jp/guide/normalPdfUpload.md)
 - [パスワードつける pdf の管理](./docs/jp/guide/pdfWithPwdModify.md)
+- [リンク集の管理](./docs/jp/guide/friendLinkModify.md)
 - [ユーザーからの問い合わせやフィードバックの処理](./docs/jp/guide/qaResolve.md)
 
 ### other
