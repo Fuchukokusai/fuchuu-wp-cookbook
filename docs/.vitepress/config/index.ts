@@ -10,16 +10,12 @@ export default defineConfig({
 
   locales: {
     root: {
-      label: '中文简体',
-      ...zh,
+      label: '日本語',
+      ...jp,
     },
     jp: {
       label: '日本語',
       ...jp,
-    },
-    zh: {
-      label: '中文简体',
-      ...zh,
     },
   },
   ignoreDeadLinks: true,

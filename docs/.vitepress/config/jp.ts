@@ -36,14 +36,70 @@ function nav(): DefaultTheme.NavItem[] {
 function sidebarGuide(): DefaultTheme.SidebarItem[] {
   return [
     {
-      text: 'Guide',
+      text: 'トップ Top',
+      collapsed: false,
+      items: [{ text: '内容の編集', link: 'pageModify/mainPageModify' }],
+    },
+    {
+      text: 'サロン概要',
+      link: 'pageGuide/saronSummary',
+      collapsed: false,
+    },
+    {
+      text: 'サロンの活動',
       collapsed: false,
       items: [
-        { text: 'ホームページの作成ガイド', link: 'homepage' },
-        { text: 'イベントのクリエート（event の編集', link: 'createEvent' },
-        { text: 'activity の編集（文章の編集', link: 'createPost' },
+        { text: '日本語学習会', link: 'pageGuide/jaLearningMeetting' },
+        { text: '文化交流会', link: 'pageGuide/jaCommunicateMeetting' },
         {
-          text: 'ユーザーからの問い合わせやフィードバックの処理', link: 'qaResolve',
+          text: 'ボランティア研修部会',
+          link: 'pageGuide/volunteerTrainingCommittee',
+        },
+        {
+          text: '生活情報支援部会',
+          link: 'pageGuide/livingInfoSupportCommittee',
+        },
+        {
+          text: '企画部会',
+          link: 'pageGuide/planningCommittee',
+        },
+      ],
+    },
+    {
+      text: '学習者のページ',
+      collapsed: false,
+      items: [{ text: '日本語学習会', link: 'pageGuide/learnerPage' }],
+    },
+    {
+      text: 'ボランティアのページ',
+      collapsed: false,
+      items: [{ text: '日本語学習会', link: 'pageGuide/volunteerPage' }],
+    },
+    {
+      text: 'ボタン',
+      link: 'friendLinkModify',
+      collapsed: false,
+    },
+    {
+      text: 'ユーザーからの問い合わせやフィードバックの処理',
+      link: 'qaResolve',
+      collapsed: false,
+    },
+    {
+      text: 'その他',
+      collapsed: false,
+      items: [
+        {
+          text: 'アクセス',
+          link: 'pageGuide/access',
+        },
+        {
+          text: 'パスワードつける pdf の管理',
+          link: 'pdfWithPwdModify',
+        },
+        {
+          text: '普通の pdf の管理',
+          link: 'normalPdfUpload',
         },
       ],
     },
