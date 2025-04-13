@@ -1,10 +1,10 @@
-## 网站主页的修改
+# 网站主页的修改
 
 目前的首页是基于 devotion theme 的 shortcode 定制而成，如果想了解该过程，可以直接查看[官方文档](https://flydemos.net/docs/devotion-doc/)。主页的 shortcode 代码页面位于“固定ページ” > “mySamplePage1001” 页面中。
 
 对于现有的主页，如果只是简单的修改文字和图片的内容，可以参考以下步骤：
 
-### 修改首页的菜单
+## 修改首页的菜单
 
 ![homePageMenu1](../../../images/image-39.png)
 
@@ -30,7 +30,21 @@
 
 ![menuSaveBtn1](../../../images/image-42.png)
 
-### 修改首页大图（slide）（又称幻灯片图片）
+## 新增菜单项
+在菜单管理页面中，点击**“カスタムリンク”**选项：
+
+![alt text](../../../images2/img2-1/image-43.png)
+
+填写 URL 以及链接的名称。如果 URL 暂时不确定，可以填写一个 `#` 符号，等到 URL 确定后再更新：
+
+![alt text](../../../images2/img2-1/image-44.png)
+
+追加完成后，会在右侧出现新的菜单项，可以通过拖拽操作，将其放置在合适的位置。最后点击“メニューを保存”按钮进行保存：
+
+![alt text](../../../images2/img2-1/image-45.png)
+
+
+## 修改首页大图（slide）（又称幻灯片图片）
 
 首页中可以展示多个大图并对其添加文字或链接：
 
