@@ -17,6 +17,7 @@
 - [アクセス](./docs/jp/guide/pageGuide/access.md)
 - [ボタン](./docs/jp/guide/friendLinkModify.md)
 - [ユーザーからの問い合わせやフィードバックの処理](./docs/jp/guide/qaResolve.md)
+  - [ユーザーからのメールの届きの設定](./docs/jp/guide/other/qaEmailRecieveSetting.md)
 - その他
   - [パスワードつける pdf の管理](./docs/jp/guide/pdfWithPwdModify.md)
   - [普通の pdf の管理](./docs/jp/guide/normalPdfUpload.md)

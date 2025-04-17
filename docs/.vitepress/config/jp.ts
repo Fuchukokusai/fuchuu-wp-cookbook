@@ -86,6 +86,11 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
       collapsed: false,
     },
     {
+      text: 'ユーザーからの問い合わせの受信の設定',
+      link: 'other/qaEmailRecieveSetting',
+      collapsed: false,
+    },
+    {
       text: 'その他',
       collapsed: false,
       items: [
