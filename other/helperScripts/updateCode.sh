@@ -1,5 +1,11 @@
 #!/usr/bin/env bash
 
+# 如果没有参数，显示帮助信息并退出
+if [ $# -eq 0 ]; then
+    help
+    exit 0
+fi
+
 help() {
     echo "用法: ./updateCode.sh [选项] [updateType]"
     echo ""
