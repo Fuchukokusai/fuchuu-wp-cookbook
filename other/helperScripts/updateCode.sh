@@ -1,11 +1,5 @@
 #!/usr/bin/env bash
 
-# 如果没有参数，显示帮助信息并退出
-if [ $# -eq 0 ]; then
-    help
-    exit 0
-fi
-
 help() {
     echo "用法: ./updateCode.sh [选项] [updateType]"
     echo ""
@@ -24,14 +18,19 @@ help() {
     echo "  多个值用逗号分隔  例如: 1,2 表示更新WordPress主题和wp-link-gallery插件代码"
     echo ""
     echo "示例:"
-    echo "  ./updateCode.sh          # 更新所有环境的所有代码"
     echo "  ./updateCode.sh -t 1     # 仅更新测试环境的WordPress主题代码"
     echo "  ./updateCode.sh -p 2     # 仅更新生产环境的wp-link-gallery插件代码"
-    echo "  ./updateCode.sh 1,2      # 更新所有环境的WordPress主题和wp-link-gallery插件代码"
+    echo "  ./updateCode.sh -t 1,2      # 更新 test 环境的WordPress主题和wp-link-gallery插件代码"
     echo ""
     echo "文件同步示例:"
     echo "  rsync -Pcauv ~/web/fuchukokusai.com/wp-content/uploads/2025/04 ~/web/test/wp-content/uploads/2025/04"
 }
+
+# 如果没有参数，显示帮助信息并退出
+if [ $# -eq 0 ]; then
+    help
+    exit 0
+fi
 
 # 如果有-h或--help参数，显示帮助信息并退出
 if [ "$1" = "-h" ] || [ "$1" = "--help" ]; then
@@ -52,6 +51,10 @@ while [ "$#" -gt 0 ]; do
             ;;
         -p|--prod)
             ENV="prod"
+            shift
+            ;;
+        -a|--all)
+            ENV="all"
             shift
             ;;
         *)
