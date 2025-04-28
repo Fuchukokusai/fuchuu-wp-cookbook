@@ -33,3 +33,4 @@
 - theme doc https://flydemos.net/docs/devotion-doc/
 - プラグインリポジトリ：[パスワード保護付き PDF ファイルダウンロードプラグイン](https://github.com/suhanyujie/wp-protected-pdf-download)
 - プラグインリポジトリ：[リンク集プラグイン](https://github.com/suhanyujie/wp-link-gallery)
+- 打包目录下的所有文件 `zip -r output.zip directory/`
