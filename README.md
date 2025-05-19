@@ -15,7 +15,7 @@
 - 学習者のページ
 - ボランティアのページ
 - [アクセス](./docs/jp/guide/pageGuide/access.md)
-- [ボタン](./docs/jp/guide/friendLinkModify.md)
+- [ボタン、リンク集](./docs/jp/guide/friendLinkModify.md)
 - [ユーザーからの問い合わせやフィードバックの処理](./docs/jp/guide/qaResolve.md)
   - [ユーザーからのメールの届きの設定](./docs/jp/guide/other/qaEmailRecieveSetting.md)
 - その他

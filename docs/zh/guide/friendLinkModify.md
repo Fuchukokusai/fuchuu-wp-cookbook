@@ -1,4 +1,6 @@
-## 友情链接的修改
+# 友情链接的修改
+
+## 侧边栏的链接
 
 “友情链接”是位于内容展示页面右侧的链接集合，如下区域所示：
 
@@ -18,10 +20,31 @@
 
 ![addLink1](../../images/image-64.png)
 
-## 修改
+### 修改
 
 如果想修改链接或者展示的文字，则可以点击相对应的“編集”按钮进行编辑即可。
 
 ![editBtn1](../../images/image-65.png)
 
 需要注意的是：友情链接的个数不要太多，最好不要超出 **10** 个。
+
+## 页面底部的链接
+在所有页面的底部也展示了一些链接，如图所示：
+
+![alt text](../../images2/img2-1/image-51.png)
+
+如果要修改这部分的链接展示，则进入 wordpress 管理后台中，外观 > “Theme Options”：
+
+![alt text](../../images2/img2-1/image-52.png)
+
+选择“Basic Settings”标签页：
+
+![alt text](../../images2/img2-1/image-53.png)
+
+然后找到如下设置项：
+
+![alt text](../../images2/img2-1/image-54.png)
+
+修改完成后，点击页面最下方的“Save Options”按钮进行保存
+
+![alt text](../../images2/img2-1/image-55.png)
