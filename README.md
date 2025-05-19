@@ -34,3 +34,4 @@
 - プラグインリポジトリ：[パスワード保護付き PDF ファイルダウンロードプラグイン](https://github.com/suhanyujie/wp-protected-pdf-download)
 - プラグインリポジトリ：[リンク集プラグイン](https://github.com/suhanyujie/wp-link-gallery)
 - 打包目录下的所有文件 `zip -r output.zip directory/`
+- 文档生成使用的是 vuepress，使用方法参考官方文档 https://vuepress.vuejs.org/
