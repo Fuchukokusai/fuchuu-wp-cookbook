@@ -33,5 +33,8 @@
 - theme doc https://flydemos.net/docs/devotion-doc/
 - プラグインリポジトリ：[パスワード保護付き PDF ファイルダウンロードプラグイン](https://github.com/suhanyujie/wp-protected-pdf-download)
 - プラグインリポジトリ：[リンク集プラグイン](https://github.com/suhanyujie/wp-link-gallery)
-- 打包目录下的所有文件 `zip -r output.zip directory/`
+- 打包目录下的所有文件
+  - `cd ./docs/.vitepress/; zip -r dist.zip dist/; mv dist.zip ../../; cd -`
+  - 上传后，curl 执行 `/t1/script/unzip.php`
 - 文档生成使用的是 vuepress，使用方法参考官方文档 https://vuepress.vuejs.org/
+- 文档预览可以查看 https://test.fuchukokusai.com/t1/script/dist/dist/
