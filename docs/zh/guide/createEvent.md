@@ -24,4 +24,16 @@ step 4：其中，地图信息的设置，可以先从 [google map](https://map.
 
 ![eventPublish1](../../images/image-20.png)
 
+## 更新 event
+
+step 1：进入后台管理页面，查看 event 列表：
+
+![picture 4](../../images2/img2-2/1763812492307.png)
+
+step 2：点击标题，可以对 event 进行更新操作
+
+step 3: 内容编辑完成后，点击右侧的「更新」按钮，即可发布。
+
+![picture 5](../../images2/img2-2/1763812648310.png)
+
 以上。
