@@ -24,6 +24,18 @@ step 4：地図情報の設定については、[google map](https://map.google.
 
 ![eventPublish1](../../images/image-20.png)
 
+## event の更新
+
+step 1：バックエンド管理画面に入り、event の一覧を確認する：
+
+![picture 4](../../images2/img2-2/1763812492307.png)
+
+step 2：タイトルをクリックすると、event の更新操作ができる。
+
+step 3: 内容の編集が完了したら、右側の「更新」ボタンをクリックすると、公開できる。
+
+![picture 5](../../images2/img2-2/1763812648310.png)
+
 以上です。
 
 ## ref

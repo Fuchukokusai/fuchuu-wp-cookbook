@@ -76,6 +76,11 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
       items: [{ text: '日本語学習会', link: 'pageGuide/volunteerPage' }],
     },
     {
+      text: 'イベント',
+      collapsed: false,
+      items: [{ text: 'イベントの作成', link: 'createEvent' }],
+    },
+    {
       text: 'ボタン、リンク集',
       link: 'friendLinkModify',
       collapsed: false,
