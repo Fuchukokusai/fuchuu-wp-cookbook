@@ -21,7 +21,7 @@
 - その他
   - [パスワードつける pdf の管理](./docs/jp/guide/pdfWithPwdModify.md)
   - [普通の pdf の管理](./docs/jp/guide/normalPdfUpload.md)
-  - [パスワードつける写真ページ](./docs/jp/guide/normalPdfUpload.md)
+  - [パスワードつける写真ページ](./docs/jp/guide/photoWithPwd.md)
 
 ### other
 
